@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Start"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/logo"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="4dp"
+        android:layout_margin="16dp"
+        android:layout_centerInParent="true">
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_play"
+            android:layout_margin="8dp"
+            android:text="PLAY"
+            android:background="#AD1457"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:theme="@style/MyButton"/>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "778084847652",
+    "firebase_url": "https://quiz-ease-expo.firebaseio.com",
+    "project_id": "quiz-ease-expo",
+    "storage_bucket": "quiz-ease-expo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778084847652:android:0042d0fec272572a5208b1",
+        "android_client_info": {
+          "package_name": "com.example.onlinequizexpo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778084847652-ksune30ln51v76i0mute8cco5i0t134u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.onlinequizexpo",
+            "certificate_hash": "cf70314b217d7f4adefe287d1d5bb6d93f052000"
+          }
+        },
+        {
+          "client_id": "778084847652-6p0r10lsf05d84q9ce6k0gnv4g0a40ke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSXSK_G1T4WP_-DZvJKdqkAPla0_YRZjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778084847652-6p0r10lsf05d84q9ce6k0gnv4g0a40ke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
